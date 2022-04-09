@@ -92,7 +92,7 @@ Students can share their notes on a class, add homework to a schedule, and uploa
     * General to School view
 
 ## Wireframes
-<img src="" width=600>
+<img src="PHOTO-2022-04-09-12-04-48.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://imgur.com/kdj8YWT" width=600>
+<img src="Schoolaborate.png" width=600>
