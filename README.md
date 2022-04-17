@@ -96,3 +96,70 @@ Students can share their notes on a class, add homework to a schedule, and uploa
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="assets/Schoolaborate.png" width=600>
+
+## Schema
+
+### Models
+
+Post
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| Author     | Pointer to 'user' | image author     |
+|objectId    |String|        unique id for the user post (default field)
+|image |     File    |image that user posts
+|createdAt | DateTime | Date when post was created (default field)
+|updatedAt | DateTime | Date when post is last updated (default field)
+   | likesCount    | Number   | number of likes for the post |
+   caption|String|    image caption by author
+   
+
+User Profile
+| Property | Type | Description |
+| -------- | -------- | -------- |
+userID|String|unique id for the user
+userName|String| name for the user
+Password|String| Password for the user
+Bio | String | Short biography user enters about themselves
+profile photo|file|image that user post for their profile photo
+school name|String| school name that user entered
+email|String| email address that user entered 
+Major | String | (Optional) User enters their major 
+Grad year | String | Student enters their expected graduation (Ex. Spring 2022)
+
+
+Chat Info
+| Property | Type | Description |
+| -------- | -------- | -------- |
+chatID|String|unique id for each chat
+userID|String|unique id for the user
+userName|String| name for the user
+caption|String|chat caption user made
+
+Group Info
+| Property | Type | Description |
+| -------- | -------- | -------- |
+groupID|String|unique id for each group
+userID|String|unique id for the user
+group photo|file|image that user post for their profile photo
+description|String|description about the group
+
+
+
+### Networking
+
+- Home Screen ("General" and "For You")
+    -(Read/GET) Query all posts where user is author
+    -(Create/POST) Create a new like on a post
+    -(Delete) Delete existing like
+    -(Create/POST) Create a new comment on a post
+    -(Delete) Delete existing comment
+
+- Creating Post 
+  -(Create/POST) Create a new post object
+
+- Profile Screen
+  (Read/GET) Query logged in user object
+  
+- Chat Screen
+    -(Create/POST) Create a new chat object
+    -(Create) Create a new group object
