@@ -6,9 +6,19 @@
 //
 
 import UIKit
+import Parse
 
 class RegisterViewController: UIViewController {
 
+    
+    @IBOutlet weak var firstnameField: UITextField!
+    @IBOutlet weak var lastnameField: UITextField!
+    @IBOutlet weak var usernameField: UITextField!
+    
+    @IBOutlet weak var passwordField: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +26,24 @@ class RegisterViewController: UIViewController {
     }
     
 
+    @IBAction func onRegister(_ sender: Any) {
+        let user = PFUser()
+        user.username = usernameField.text
+        user.password = passwordField.text
+        
+        user.signUpInBackground { (success, error) in
+            if success{
+                self.performSegue(withIdentifier: "registerSegue", sender: nil)
+            }
+            else{
+                print("Error: \(error?.localizedDescription)")
+            }
+        
+        }
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 
