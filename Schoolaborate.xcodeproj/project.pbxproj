@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212E61851F178BEC279AC7B2 /* Pods_Schoolaborate_SchoolaborateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B3E6DB79EB100A43BAC149 /* Pods_Schoolaborate_SchoolaborateUITests.framework */; };
+		52AFAA24846828829C5C7079 /* Pods_SchoolaborateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987695749DA650B2219972F8 /* Pods_SchoolaborateTests.framework */; };
+		AD009ED82814428C00A6DC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED72814428C00A6DC83 /* AppDelegate.swift */; };
+		AD009EDA2814428C00A6DC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED92814428C00A6DC83 /* SceneDelegate.swift */; };
+		AD009EDF2814428C00A6DC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD009EDD2814428C00A6DC83 /* Main.storyboard */; };
+		AD009EE12814429200A6DC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD009EE02814429200A6DC83 /* Assets.xcassets */; };
+		AD009EE42814429200A6DC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD009EE22814429200A6DC83 /* LaunchScreen.storyboard */; };
+		AD009EEF2814429200A6DC83 /* SchoolaborateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009EEE2814429200A6DC83 /* SchoolaborateTests.swift */; };
+		AD009EF92814429200A6DC83 /* SchoolaborateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009EF82814429200A6DC83 /* SchoolaborateUITests.swift */; };
+		AD009EFB2814429200A6DC83 /* SchoolaborateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009EFA2814429200A6DC83 /* SchoolaborateUITestsLaunchTests.swift */; };
+		AD009F0828144A2B00A6DC83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009F0728144A2B00A6DC83 /* LoginViewController.swift */; };
+		AD009F0A28144A4000A6DC83 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009F0928144A4000A6DC83 /* FeedViewController.swift */; };
+		AD009F0C28144E6B00A6DC83 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */; };
+		DDBAD96313422BB4B1E6D643 /* Pods_Schoolaborate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0D8ED1407B9C792D64A88 /* Pods_Schoolaborate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD009EEB2814429200A6DC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD009ECC2814428B00A6DC83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD009ED32814428B00A6DC83;
+			remoteInfo = Schoolaborate;
+		};
+		AD009EF52814429200A6DC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD009ECC2814428B00A6DC83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD009ED32814428B00A6DC83;
+			remoteInfo = Schoolaborate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3500A6476669A15F56678C /* Pods-Schoolaborate-SchoolaborateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schoolaborate-SchoolaborateUITests.release.xcconfig"; path = "Target Support Files/Pods-Schoolaborate-SchoolaborateUITests/Pods-Schoolaborate-SchoolaborateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20B3E6DB79EB100A43BAC149 /* Pods_Schoolaborate_SchoolaborateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schoolaborate_SchoolaborateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B26E631B827D97033B12C1 /* Pods-SchoolaborateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolaborateTests.release.xcconfig"; path = "Target Support Files/Pods-SchoolaborateTests/Pods-SchoolaborateTests.release.xcconfig"; sourceTree = "<group>"; };
+		3640C3CE5287C2E8DE83D1EE /* Pods-SchoolaborateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolaborateTests.debug.xcconfig"; path = "Target Support Files/Pods-SchoolaborateTests/Pods-SchoolaborateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		592042C6F51AB00D8CCE5487 /* Pods-Schoolaborate-SchoolaborateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schoolaborate-SchoolaborateUITests.debug.xcconfig"; path = "Target Support Files/Pods-Schoolaborate-SchoolaborateUITests/Pods-Schoolaborate-SchoolaborateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89606C962E41CDEDD31F8612 /* Pods-Schoolaborate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schoolaborate.debug.xcconfig"; path = "Target Support Files/Pods-Schoolaborate/Pods-Schoolaborate.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0F23DB549957123C1E41C5 /* Pods-Schoolaborate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schoolaborate.release.xcconfig"; path = "Target Support Files/Pods-Schoolaborate/Pods-Schoolaborate.release.xcconfig"; sourceTree = "<group>"; };
+		987695749DA650B2219972F8 /* Pods_SchoolaborateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolaborateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD009ED42814428B00A6DC83 /* Schoolaborate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schoolaborate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD009ED72814428C00A6DC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD009ED92814428C00A6DC83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD009EDE2814428C00A6DC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD009EE02814429200A6DC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD009EE32814429200A6DC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD009EE52814429200A6DC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD009EEA2814429200A6DC83 /* SchoolaborateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolaborateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD009EEE2814429200A6DC83 /* SchoolaborateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolaborateTests.swift; sourceTree = "<group>"; };
+		AD009EF42814429200A6DC83 /* SchoolaborateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolaborateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD009EF82814429200A6DC83 /* SchoolaborateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolaborateUITests.swift; sourceTree = "<group>"; };
+		AD009EFA2814429200A6DC83 /* SchoolaborateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolaborateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD009F0728144A2B00A6DC83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AD009F0928144A4000A6DC83 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D8E0D8ED1407B9C792D64A88 /* Pods_Schoolaborate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schoolaborate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD009ED12814428B00A6DC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBAD96313422BB4B1E6D643 /* Pods_Schoolaborate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD009EE72814429200A6DC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AFAA24846828829C5C7079 /* Pods_SchoolaborateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD009EF12814429200A6DC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212E61851F178BEC279AC7B2 /* Pods_Schoolaborate_SchoolaborateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD009ECB2814428B00A6DC83 = {
+			isa = PBXGroup;
+			children = (
+				AD009ED62814428C00A6DC83 /* Schoolaborate */,
+				AD009EED2814429200A6DC83 /* SchoolaborateTests */,
+				AD009EF72814429200A6DC83 /* SchoolaborateUITests */,
+				AD009ED52814428B00A6DC83 /* Products */,
+				DE26489C4467D64B3F875536 /* Pods */,
+				C0A40606BB5B3427C68A5FF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD009ED52814428B00A6DC83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD009ED42814428B00A6DC83 /* Schoolaborate.app */,
+				AD009EEA2814429200A6DC83 /* SchoolaborateTests.xctest */,
+				AD009EF42814429200A6DC83 /* SchoolaborateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD009ED62814428C00A6DC83 /* Schoolaborate */ = {
+			isa = PBXGroup;
+			children = (
+				AD009ED72814428C00A6DC83 /* AppDelegate.swift */,
+				AD009ED92814428C00A6DC83 /* SceneDelegate.swift */,
+				AD009EDD2814428C00A6DC83 /* Main.storyboard */,
+				AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */,
+				AD009F0728144A2B00A6DC83 /* LoginViewController.swift */,
+				AD009F0928144A4000A6DC83 /* FeedViewController.swift */,
+				AD009EE02814429200A6DC83 /* Assets.xcassets */,
+				AD009EE22814429200A6DC83 /* LaunchScreen.storyboard */,
+				AD009EE52814429200A6DC83 /* Info.plist */,
+			);
+			path = Schoolaborate;
+			sourceTree = "<group>";
+		};
+		AD009EED2814429200A6DC83 /* SchoolaborateTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD009EEE2814429200A6DC83 /* SchoolaborateTests.swift */,
+			);
+			path = SchoolaborateTests;
+			sourceTree = "<group>";
+		};
+		AD009EF72814429200A6DC83 /* SchoolaborateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD009EF82814429200A6DC83 /* SchoolaborateUITests.swift */,
+				AD009EFA2814429200A6DC83 /* SchoolaborateUITestsLaunchTests.swift */,
+			);
+			path = SchoolaborateUITests;
+			sourceTree = "<group>";
+		};
+		C0A40606BB5B3427C68A5FF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E0D8ED1407B9C792D64A88 /* Pods_Schoolaborate.framework */,
+				20B3E6DB79EB100A43BAC149 /* Pods_Schoolaborate_SchoolaborateUITests.framework */,
+				987695749DA650B2219972F8 /* Pods_SchoolaborateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE26489C4467D64B3F875536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89606C962E41CDEDD31F8612 /* Pods-Schoolaborate.debug.xcconfig */,
+				8A0F23DB549957123C1E41C5 /* Pods-Schoolaborate.release.xcconfig */,
+				592042C6F51AB00D8CCE5487 /* Pods-Schoolaborate-SchoolaborateUITests.debug.xcconfig */,
+				1D3500A6476669A15F56678C /* Pods-Schoolaborate-SchoolaborateUITests.release.xcconfig */,
+				3640C3CE5287C2E8DE83D1EE /* Pods-SchoolaborateTests.debug.xcconfig */,
+				22B26E631B827D97033B12C1 /* Pods-SchoolaborateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD009ED32814428B00A6DC83 /* Schoolaborate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD009EFE2814429200A6DC83 /* Build configuration list for PBXNativeTarget "Schoolaborate" */;
+			buildPhases = (
+				FD0B123E77883A759091C768 /* [CP] Check Pods Manifest.lock */,
+				AD009ED02814428B00A6DC83 /* Sources */,
+				AD009ED12814428B00A6DC83 /* Frameworks */,
+				AD009ED22814428B00A6DC83 /* Resources */,
+				5968E9A674EBC87362A90A65 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schoolaborate;
+			productName = Schoolaborate;
+			productReference = AD009ED42814428B00A6DC83 /* Schoolaborate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD009EE92814429200A6DC83 /* SchoolaborateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD009F012814429200A6DC83 /* Build configuration list for PBXNativeTarget "SchoolaborateTests" */;
+			buildPhases = (
+				1D6A7C246955758BE76E65AF /* [CP] Check Pods Manifest.lock */,
+				AD009EE62814429200A6DC83 /* Sources */,
+				AD009EE72814429200A6DC83 /* Frameworks */,
+				AD009EE82814429200A6DC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD009EEC2814429200A6DC83 /* PBXTargetDependency */,
+			);
+			name = SchoolaborateTests;
+			productName = SchoolaborateTests;
+			productReference = AD009EEA2814429200A6DC83 /* SchoolaborateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD009EF32814429200A6DC83 /* SchoolaborateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD009F042814429200A6DC83 /* Build configuration list for PBXNativeTarget "SchoolaborateUITests" */;
+			buildPhases = (
+				CB097FF6FB23C5C6826EDD8B /* [CP] Check Pods Manifest.lock */,
+				AD009EF02814429200A6DC83 /* Sources */,
+				AD009EF12814429200A6DC83 /* Frameworks */,
+				AD009EF22814429200A6DC83 /* Resources */,
+				D3C16F3F0B5762F08F8E3BE4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD009EF62814429200A6DC83 /* PBXTargetDependency */,
+			);
+			name = SchoolaborateUITests;
+			productName = SchoolaborateUITests;
+			productReference = AD009EF42814429200A6DC83 /* SchoolaborateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD009ECC2814428B00A6DC83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AD009ED32814428B00A6DC83 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AD009EE92814429200A6DC83 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD009ED32814428B00A6DC83;
+					};
+					AD009EF32814429200A6DC83 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD009ED32814428B00A6DC83;
+					};
+				};
+			};
+			buildConfigurationList = AD009ECF2814428B00A6DC83 /* Build configuration list for PBXProject "Schoolaborate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD009ECB2814428B00A6DC83;
+			productRefGroup = AD009ED52814428B00A6DC83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD009ED32814428B00A6DC83 /* Schoolaborate */,
+				AD009EE92814429200A6DC83 /* SchoolaborateTests */,
+				AD009EF32814429200A6DC83 /* SchoolaborateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD009ED22814428B00A6DC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD009EE42814429200A6DC83 /* LaunchScreen.storyboard in Resources */,
+				AD009EE12814429200A6DC83 /* Assets.xcassets in Resources */,
+				AD009EDF2814428C00A6DC83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD009EE82814429200A6DC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD009EF22814429200A6DC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D6A7C246955758BE76E65AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchoolaborateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5968E9A674EBC87362A90A65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Schoolaborate/Pods-Schoolaborate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Schoolaborate/Pods-Schoolaborate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Schoolaborate/Pods-Schoolaborate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB097FF6FB23C5C6826EDD8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Schoolaborate-SchoolaborateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C16F3F0B5762F08F8E3BE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Schoolaborate-SchoolaborateUITests/Pods-Schoolaborate-SchoolaborateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Schoolaborate-SchoolaborateUITests/Pods-Schoolaborate-SchoolaborateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Schoolaborate-SchoolaborateUITests/Pods-Schoolaborate-SchoolaborateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0B123E77883A759091C768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Schoolaborate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD009ED02814428B00A6DC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD009F0828144A2B00A6DC83 /* LoginViewController.swift in Sources */,
+				AD009F0C28144E6B00A6DC83 /* RegisterViewController.swift in Sources */,
+				AD009ED82814428C00A6DC83 /* AppDelegate.swift in Sources */,
+				AD009F0A28144A4000A6DC83 /* FeedViewController.swift in Sources */,
+				AD009EDA2814428C00A6DC83 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD009EE62814429200A6DC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD009EEF2814429200A6DC83 /* SchoolaborateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD009EF02814429200A6DC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD009EF92814429200A6DC83 /* SchoolaborateUITests.swift in Sources */,
+				AD009EFB2814429200A6DC83 /* SchoolaborateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD009EEC2814429200A6DC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD009ED32814428B00A6DC83 /* Schoolaborate */;
+			targetProxy = AD009EEB2814429200A6DC83 /* PBXContainerItemProxy */;
+		};
+		AD009EF62814429200A6DC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD009ED32814428B00A6DC83 /* Schoolaborate */;
+			targetProxy = AD009EF52814429200A6DC83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD009EDD2814428C00A6DC83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD009EDE2814428C00A6DC83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD009EE22814429200A6DC83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD009EE32814429200A6DC83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD009EFC2814429200A6DC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD009EFD2814429200A6DC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD009EFF2814429200A6DC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89606C962E41CDEDD31F8612 /* Pods-Schoolaborate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 256Z9BBYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Schoolaborate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikiyem.Schoolaborate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD009F002814429200A6DC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0F23DB549957123C1E41C5 /* Pods-Schoolaborate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 256Z9BBYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Schoolaborate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikiyem.Schoolaborate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD009F022814429200A6DC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3640C3CE5287C2E8DE83D1EE /* Pods-SchoolaborateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 256Z9BBYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikiyem.SchoolaborateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schoolaborate.app/Schoolaborate";
+			};
+			name = Debug;
+		};
+		AD009F032814429200A6DC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B26E631B827D97033B12C1 /* Pods-SchoolaborateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 256Z9BBYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikiyem.SchoolaborateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schoolaborate.app/Schoolaborate";
+			};
+			name = Release;
+		};
+		AD009F052814429200A6DC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592042C6F51AB00D8CCE5487 /* Pods-Schoolaborate-SchoolaborateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 256Z9BBYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikiyem.SchoolaborateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schoolaborate;
+			};
+			name = Debug;
+		};
+		AD009F062814429200A6DC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3500A6476669A15F56678C /* Pods-Schoolaborate-SchoolaborateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 256Z9BBYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikiyem.SchoolaborateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schoolaborate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD009ECF2814428B00A6DC83 /* Build configuration list for PBXProject "Schoolaborate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD009EFC2814429200A6DC83 /* Debug */,
+				AD009EFD2814429200A6DC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD009EFE2814429200A6DC83 /* Build configuration list for PBXNativeTarget "Schoolaborate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD009EFF2814429200A6DC83 /* Debug */,
+				AD009F002814429200A6DC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD009F012814429200A6DC83 /* Build configuration list for PBXNativeTarget "SchoolaborateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD009F022814429200A6DC83 /* Debug */,
+				AD009F032814429200A6DC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD009F042814429200A6DC83 /* Build configuration list for PBXNativeTarget "SchoolaborateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD009F052814429200A6DC83 /* Debug */,
+				AD009F062814429200A6DC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD009ECC2814428B00A6DC83 /* Project object */;
+}
