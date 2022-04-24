@@ -13,8 +13,8 @@ class RegisterViewController: UIViewController {
     
     @IBOutlet weak var firstnameField: UITextField!
     @IBOutlet weak var lastnameField: UITextField!
+    @IBOutlet weak var schoolField: UITextField!
     @IBOutlet weak var usernameField: UITextField!
-    
     @IBOutlet weak var passwordField: UITextField!
     
     

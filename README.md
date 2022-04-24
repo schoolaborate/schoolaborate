@@ -31,17 +31,17 @@ Students can share their notes on a class, add homework to a schedule, and uploa
 
 **Required Must-have Stories**
 
-* Register
-* Login
-* General Home view - Bulletin view (Feels similar to Discord x Reddit)
-* School Specific Home View
-* Create group chats
-* Create posts
+- [x] Register
+- [x] Login
+- [] General Home view - Bulletin view (Feels similar to Discord x Reddit)
+- [] School Specific Home View
+- [] Create group chats
+- [] Create posts
 
 **Optional Nice-to-have Stories**
 
-* Settings to change schools/ education level
-* Filter/ Search for content in the Home Views
+- [] Settings to change schools/ education level
+- [] Filter/ Search for content in the Home Views
 
 ### 2. Screen Archetypes
 
@@ -163,3 +163,7 @@ description|String|description about the group
 - Chat Screen
     -(Create/POST) Create a new chat object
     -(Create) Create a new group object
+    
+### App Walkthrough GIF
+
+<img src="http://g.recordit.co/ZPvwObk9mC.gif" width=250><br>
