@@ -10,6 +10,7 @@
 		212E61851F178BEC279AC7B2 /* Pods_Schoolaborate_SchoolaborateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B3E6DB79EB100A43BAC149 /* Pods_Schoolaborate_SchoolaborateUITests.framework */; };
 		52AFAA24846828829C5C7079 /* Pods_SchoolaborateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987695749DA650B2219972F8 /* Pods_SchoolaborateTests.framework */; };
 		92931F32282440720029DD2D /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F31282440720029DD2D /* GeneralViewController.swift */; };
+		92931F34282444390029DD2D /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F33282444390029DD2D /* ForYouViewController.swift */; };
 		AD009ED82814428C00A6DC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED72814428C00A6DC83 /* AppDelegate.swift */; };
 		AD009EDA2814428C00A6DC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED92814428C00A6DC83 /* SceneDelegate.swift */; };
 		AD009EDF2814428C00A6DC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD009EDD2814428C00A6DC83 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		89606C962E41CDEDD31F8612 /* Pods-Schoolaborate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schoolaborate.debug.xcconfig"; path = "Target Support Files/Pods-Schoolaborate/Pods-Schoolaborate.debug.xcconfig"; sourceTree = "<group>"; };
 		8A0F23DB549957123C1E41C5 /* Pods-Schoolaborate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schoolaborate.release.xcconfig"; path = "Target Support Files/Pods-Schoolaborate/Pods-Schoolaborate.release.xcconfig"; sourceTree = "<group>"; };
 		92931F31282440720029DD2D /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		92931F33282444390029DD2D /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
 		987695749DA650B2219972F8 /* Pods_SchoolaborateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolaborateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD009ED42814428B00A6DC83 /* Schoolaborate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schoolaborate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD009ED72814428C00A6DC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				AD009ED92814428C00A6DC83 /* SceneDelegate.swift */,
 				AD009EDD2814428C00A6DC83 /* Main.storyboard */,
 				92931F31282440720029DD2D /* GeneralViewController.swift */,
+				92931F33282444390029DD2D /* ForYouViewController.swift */,
 				AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */,
 				AD009F0728144A2B00A6DC83 /* LoginViewController.swift */,
 				AD009F0928144A4000A6DC83 /* FeedViewController.swift */,
@@ -418,6 +421,7 @@
 				AD009F0828144A2B00A6DC83 /* LoginViewController.swift in Sources */,
 				AD009F0C28144E6B00A6DC83 /* RegisterViewController.swift in Sources */,
 				AD009ED82814428C00A6DC83 /* AppDelegate.swift in Sources */,
+				92931F34282444390029DD2D /* ForYouViewController.swift in Sources */,
 				92931F32282440720029DD2D /* GeneralViewController.swift in Sources */,
 				AD009F0A28144A4000A6DC83 /* FeedViewController.swift in Sources */,
 				AD009EDA2814428C00A6DC83 /* SceneDelegate.swift in Sources */,
