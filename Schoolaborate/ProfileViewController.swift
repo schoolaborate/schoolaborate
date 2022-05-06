@@ -6,15 +6,28 @@
 //
 
 import UIKit
+import Parse
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var usernameLabel: UILabel!
+    
+let user = PFUser()
+    
+    
+    
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        
+        //Username label is set to the current users username
+        usernameLabel.text = PFUser.current()?.username
+        
+        //
+
     }
-    
 
     /*
     // MARK: - Navigation

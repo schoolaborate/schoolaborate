@@ -460,15 +460,25 @@
                                     <segue destination="i1v-L1-ZtS" kind="presentation" id="TV9-Mn-DbD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdL-kT-aBj">
+                                <rect key="frame" x="20" y="85" width="197" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ByL-Ck-cbh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" selectedImage="person.fill" catalog="system" id="Slh-bG-hws"/>
+                    <connections>
+                        <outlet property="usernameLabel" destination="xdL-kT-aBj" id="BO7-BQ-WJh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3lJ-d9-64c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1360.8695652173915" y="2191.7410714285711"/>
+            <point key="canvasLocation" x="1360.8695652173915" y="2191.0714285714284"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="NyZ-ky-a5q">
@@ -599,9 +609,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="prb-o0-OA1"/>
+        <segue reference="BEG-LQ-AME"/>
         <segue reference="c2R-wZ-ypZ"/>
-        <segue reference="Ejx-Qe-pmx"/>
+        <segue reference="EM0-Qv-xR8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="homekit" catalog="system" width="128" height="106"/>
