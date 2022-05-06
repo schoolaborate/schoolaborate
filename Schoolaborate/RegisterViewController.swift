@@ -30,6 +30,10 @@ class RegisterViewController: UIViewController {
         let user = PFUser()
         user.username = usernameField.text
         user.password = passwordField.text
+        user["school"] = schoolField.text
+        user["firstName"] = firstnameField.text
+        user["lastName"] = lastnameField.text
+
         
         user.signUpInBackground { (success, error) in
             if success{
