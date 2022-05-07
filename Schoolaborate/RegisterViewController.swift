@@ -16,7 +16,7 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var schoolField: UITextField!
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-    
+    @IBOutlet weak var emailField: UITextField!
     
     
     override func viewDidLoad() {
@@ -30,6 +30,7 @@ class RegisterViewController: UIViewController {
         let user = PFUser()
         user.username = usernameField.text
         user.password = passwordField.text
+        user.email = emailField.text
         user["school"] = schoolField.text
         user["firstName"] = firstnameField.text
         user["lastName"] = lastnameField.text

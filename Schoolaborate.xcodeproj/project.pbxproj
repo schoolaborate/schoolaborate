@@ -13,6 +13,7 @@
 		92931F34282444390029DD2D /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F33282444390029DD2D /* ForYouViewController.swift */; };
 		92931F362825D1940029DD2D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F352825D1940029DD2D /* ProfileViewController.swift */; };
 		92931F382825D1E50029DD2D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F372825D1E50029DD2D /* SettingsViewController.swift */; };
+		92931F3A2825FF890029DD2D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F392825FF890029DD2D /* ForgotPasswordViewController.swift */; };
 		AD009ED82814428C00A6DC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED72814428C00A6DC83 /* AppDelegate.swift */; };
 		AD009EDA2814428C00A6DC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED92814428C00A6DC83 /* SceneDelegate.swift */; };
 		AD009EDF2814428C00A6DC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD009EDD2814428C00A6DC83 /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 		92931F33282444390029DD2D /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
 		92931F352825D1940029DD2D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		92931F372825D1E50029DD2D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		92931F392825FF890029DD2D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		987695749DA650B2219972F8 /* Pods_SchoolaborateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolaborateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD009ED42814428B00A6DC83 /* Schoolaborate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schoolaborate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD009ED72814428C00A6DC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				AD009EDD2814428C00A6DC83 /* Main.storyboard */,
 				92931F31282440720029DD2D /* GeneralViewController.swift */,
 				92931F33282444390029DD2D /* ForYouViewController.swift */,
+				92931F392825FF890029DD2D /* ForgotPasswordViewController.swift */,
 				92931F372825D1E50029DD2D /* SettingsViewController.swift */,
 				92931F352825D1940029DD2D /* ProfileViewController.swift */,
 				AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */,
@@ -430,6 +433,7 @@
 				92931F34282444390029DD2D /* ForYouViewController.swift in Sources */,
 				92931F32282440720029DD2D /* GeneralViewController.swift in Sources */,
 				AD009F0A28144A4000A6DC83 /* FeedViewController.swift in Sources */,
+				92931F3A2825FF890029DD2D /* ForgotPasswordViewController.swift in Sources */,
 				92931F362825D1940029DD2D /* ProfileViewController.swift in Sources */,
 				AD009EDA2814428C00A6DC83 /* SceneDelegate.swift in Sources */,
 				92931F382825D1E50029DD2D /* SettingsViewController.swift in Sources */,
