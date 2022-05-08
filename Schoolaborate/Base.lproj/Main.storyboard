@@ -436,19 +436,53 @@
             </objects>
             <point key="canvasLocation" x="-1465" y="2934"/>
         </scene>
-        <!--View Controller-->
+        <!--Post View Controller-->
         <scene sceneID="OMe-iV-Jla">
             <objects>
-                <viewController id="ACs-8a-JK9" sceneMemberID="viewController">
+                <viewController id="ACs-8a-JK9" customClass="PostViewController" customModule="Schoolaborate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Km-U7-NmR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ISg-jj-VK4">
+                                <rect key="frame" x="6" y="389.5" width="388" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlT-iw-NoG">
+                                <rect key="frame" x="6" y="445.5" width="388" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Submit"/>
+                                <connections>
+                                    <action selector="onSubmitButton:" destination="ACs-8a-JK9" eventType="touchUpInside" id="edF-L2-YX2"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlankDefaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="Ltm-JM-atb">
+                                <rect key="frame" x="13" y="44" width="388" height="337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="PZj-LI-NXY" appends="YES" id="iSs-jm-8j8"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="H1J-My-aD5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Ho-l9-KpS"/>
+                    <connections>
+                        <outlet property="captionField" destination="ISg-jj-VK4" id="t01-jh-A78"/>
+                        <outlet property="imageView" destination="Ltm-JM-atb" id="A8a-JB-1ca"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MWZ-xt-r1K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="PZj-LI-NXY">
+                    <connections>
+                        <action selector="onCameraButton:" destination="ACs-8a-JK9" id="swh-N8-rRd"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="448" y="2934"/>
         </scene>
@@ -471,10 +505,10 @@
             </objects>
             <point key="canvasLocation" x="448" y="1491"/>
         </scene>
-        <!--Home-->
+        <!--Home Scene-->
         <scene sceneID="GLL-RO-HZb">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" navigationBarHidden="YES" id="a9h-c2-kk1" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="HomeScene" title="Home Scene" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" navigationBarHidden="YES" id="a9h-c2-kk1" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="AcN-Kh-xEq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ibw-Dw-c3b">
@@ -615,22 +649,6 @@
             </objects>
             <point key="canvasLocation" x="2072" y="2192"/>
         </scene>
-        <!--New Post-->
-        <scene sceneID="Zfd-Kn-OFj">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="2OI-qN-ttl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="djS-8q-t4v">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="v3Y-dY-eRj"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="New Post" id="EFd-9L-Mbn"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="26N-uo-gr5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="448" y="2934"/>
-        </scene>
         <!--Edit Profile-->
         <scene sceneID="U0c-Pv-KHg">
             <objects>
@@ -756,7 +774,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="BEG-LQ-AME"/>
         <segue reference="02G-fT-r30"/>
-        <segue reference="Ejx-Qe-pmx"/>
+        <segue reference="EM0-Qv-xR8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BlankDefaultProfileImage" width="1920" height="1920"/>
