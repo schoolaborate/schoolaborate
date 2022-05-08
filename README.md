@@ -36,7 +36,7 @@ Students can share their notes on a class, add homework to a schedule, and uploa
 - [] General Home view - Bulletin view (Feels similar to Discord x Reddit)
 - [] School Specific Home View
 - [] Create group chats
-- [] Create posts
+- [X] Create posts
 
 **Optional Nice-to-have Stories**
 
@@ -167,3 +167,10 @@ description|String|description about the group
 ### App Walkthrough GIF
 
 <img src="http://g.recordit.co/ZPvwObk9mC.gif" width=250><br>
+
+### App Walkthrough GIF 5/7/22
+
+![Simulator Screen Recording - iPhone 13 Pro Max - 2022-05-07 at 22 50 26](https://user-images.githubusercontent.com/73564856/167279773-2b5c7a1b-0ca3-488c-a36e-8dfa6474e5cc.gif)
+
+
+
