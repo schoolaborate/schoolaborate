@@ -13,6 +13,8 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var schoolnameLabel: UILabel!
     @IBOutlet weak var profileimageView: UIImageView!
+    @IBOutlet weak var FirstNameLabel: UILabel!
+    @IBOutlet weak var LastNameLabel: UILabel!
     
 let user = PFUser()
     
@@ -29,11 +31,17 @@ let user = PFUser()
         
         
         //School label is set to current users school
-        schoolnameLabel.text = PFUser.current()!["school"] as! String
+        schoolnameLabel.text = PFUser.current()!["school"] as? String
         
 
         //Profile picture is set to users chosen picture
-        //to be added
+       
+        //
+        
+        
+        //First name and last name
+        FirstNameLabel.text = PFUser.current()!["firstName"] as? String
+        LastNameLabel.text = PFUser.current()!["lastName"] as? String
         
         
         

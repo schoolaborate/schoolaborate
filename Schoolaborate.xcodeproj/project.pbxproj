@@ -14,6 +14,7 @@
 		92931F362825D1940029DD2D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F352825D1940029DD2D /* ProfileViewController.swift */; };
 		92931F382825D1E50029DD2D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F372825D1E50029DD2D /* SettingsViewController.swift */; };
 		92931F3A2825FF890029DD2D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F392825FF890029DD2D /* ForgotPasswordViewController.swift */; };
+		92931F3C282732C00029DD2D /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F3B282732C00029DD2D /* EditProfileViewController.swift */; };
 		AD009ED82814428C00A6DC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED72814428C00A6DC83 /* AppDelegate.swift */; };
 		AD009EDA2814428C00A6DC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED92814428C00A6DC83 /* SceneDelegate.swift */; };
 		AD009EDF2814428C00A6DC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD009EDD2814428C00A6DC83 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		92931F352825D1940029DD2D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		92931F372825D1E50029DD2D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		92931F392825FF890029DD2D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		92931F3B282732C00029DD2D /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		987695749DA650B2219972F8 /* Pods_SchoolaborateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolaborateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD009ED42814428B00A6DC83 /* Schoolaborate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schoolaborate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD009ED72814428C00A6DC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				92931F31282440720029DD2D /* GeneralViewController.swift */,
 				92931F33282444390029DD2D /* ForYouViewController.swift */,
 				92931F392825FF890029DD2D /* ForgotPasswordViewController.swift */,
+				92931F3B282732C00029DD2D /* EditProfileViewController.swift */,
 				92931F372825D1E50029DD2D /* SettingsViewController.swift */,
 				92931F352825D1940029DD2D /* ProfileViewController.swift */,
 				AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */,
@@ -427,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92931F3C282732C00029DD2D /* EditProfileViewController.swift in Sources */,
 				AD009F0828144A2B00A6DC83 /* LoginViewController.swift in Sources */,
 				AD009F0C28144E6B00A6DC83 /* RegisterViewController.swift in Sources */,
 				AD009ED82814428C00A6DC83 /* AppDelegate.swift in Sources */,
@@ -614,7 +618,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 256Z9BBYTC;
+				DEVELOPMENT_TEAM = LLMYHCQ2SA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Schoolaborate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -627,7 +631,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kikiyem.Schoolaborate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anthony.Schoolaborate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -643,7 +647,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 256Z9BBYTC;
+				DEVELOPMENT_TEAM = LLMYHCQ2SA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Schoolaborate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -656,7 +660,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kikiyem.Schoolaborate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anthony.Schoolaborate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
