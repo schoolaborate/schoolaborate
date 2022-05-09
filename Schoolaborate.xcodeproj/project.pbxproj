@@ -16,6 +16,8 @@
 		92931F3A2825FF890029DD2D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F392825FF890029DD2D /* ForgotPasswordViewController.swift */; };
 		92931F3C282732C00029DD2D /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F3B282732C00029DD2D /* EditProfileViewController.swift */; };
 		92931F3E282747FA0029DD2D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F3D282747FA0029DD2D /* PostViewController.swift */; };
+		92931F40282995900029DD2D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F3F282995900029DD2D /* ChatViewController.swift */; };
+		92931F42282995D00029DD2D /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F41282995D00029DD2D /* ExploreViewController.swift */; };
 		AD009ED82814428C00A6DC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED72814428C00A6DC83 /* AppDelegate.swift */; };
 		AD009EDA2814428C00A6DC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009ED92814428C00A6DC83 /* SceneDelegate.swift */; };
 		AD009EDF2814428C00A6DC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD009EDD2814428C00A6DC83 /* Main.storyboard */; };
@@ -62,6 +64,8 @@
 		92931F392825FF890029DD2D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		92931F3B282732C00029DD2D /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		92931F3D282747FA0029DD2D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		92931F3F282995900029DD2D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		92931F41282995D00029DD2D /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		987695749DA650B2219972F8 /* Pods_SchoolaborateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolaborateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD009ED42814428B00A6DC83 /* Schoolaborate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schoolaborate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD009ED72814428C00A6DC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,11 +143,13 @@
 				AD009EDD2814428C00A6DC83 /* Main.storyboard */,
 				92931F31282440720029DD2D /* GeneralViewController.swift */,
 				92931F33282444390029DD2D /* ForYouViewController.swift */,
+				92931F41282995D00029DD2D /* ExploreViewController.swift */,
+				92931F3D282747FA0029DD2D /* PostViewController.swift */,
+				92931F3F282995900029DD2D /* ChatViewController.swift */,
+				92931F352825D1940029DD2D /* ProfileViewController.swift */,
 				92931F392825FF890029DD2D /* ForgotPasswordViewController.swift */,
 				92931F3B282732C00029DD2D /* EditProfileViewController.swift */,
 				92931F372825D1E50029DD2D /* SettingsViewController.swift */,
-				92931F352825D1940029DD2D /* ProfileViewController.swift */,
-				92931F3D282747FA0029DD2D /* PostViewController.swift */,
 				AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */,
 				AD009F0728144A2B00A6DC83 /* LoginViewController.swift */,
 				AD009F0928144A4000A6DC83 /* FeedViewController.swift */,
@@ -442,8 +448,10 @@
 				92931F32282440720029DD2D /* GeneralViewController.swift in Sources */,
 				AD009F0A28144A4000A6DC83 /* FeedViewController.swift in Sources */,
 				92931F3A2825FF890029DD2D /* ForgotPasswordViewController.swift in Sources */,
+				92931F40282995900029DD2D /* ChatViewController.swift in Sources */,
 				92931F362825D1940029DD2D /* ProfileViewController.swift in Sources */,
 				AD009EDA2814428C00A6DC83 /* SceneDelegate.swift in Sources */,
+				92931F42282995D00029DD2D /* ExploreViewController.swift in Sources */,
 				92931F382825D1E50029DD2D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,7 +630,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LLMYHCQ2SA;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Schoolaborate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -654,7 +662,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LLMYHCQ2SA;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Schoolaborate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
