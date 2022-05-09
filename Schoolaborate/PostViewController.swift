@@ -8,9 +8,13 @@
 import UIKit
 import Parse
 import AlamofireImage
+import UIKit
 
-class PostViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
-
+class PostViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate, UITextFieldDelegate {
+    
+    @objc private func hideKeyboard() {
+        self.view.endEditing(true)
+    }
 
 
     @IBOutlet weak var imageView: UIImageView!
@@ -20,6 +24,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate & UI
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        captionField.delegate = self //delegate for return key dismiss of keyboard
     }
     
     @IBAction func onSubmitButton(_ sender: Any) {
@@ -41,6 +46,9 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate & UI
                     print("error!")
                 }
             }
+        
+        self.performSegue(withIdentifier: "homeSegue", sender: self)
+        
         }
     
     @IBAction func onCameraButton(_ sender: Any) {
@@ -67,6 +75,19 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate & UI
         dismiss(animated: true, completion: nil)
     }
     
+    // Dismiss keyboard on whitespace tapped
+    @IBAction func onViewTapped(_ sender: Any) {
+        let tapGesture = UITapGestureRecognizer(target: self,
+                                                action: #selector(hideKeyboard))
+        tapGesture.cancelsTouchesInView = false
+        self.view.addGestureRecognizer(tapGesture)
+        
+        
+    }
+
+    
+    
+    
     /*
     // MARK: - Navigation
 
@@ -77,4 +98,12 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate & UI
     }
     */
 
+}
+
+// Extension to dismiss keyboard on RETURN KEY
+extension PostViewController {
+    func textFieldShouldReturn(_ captionField: UITextField) -> Bool {
+          captionField.resignFirstResponder() // dismiss keyboard
+          return true
+      }
 }
