@@ -6,13 +6,24 @@
 //
 
 import UIKit
+import Parse
 
 class GeneralViewController: UIViewController {
 
+    @IBOutlet weak var tableview: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        let query = PFQuery(className: "Post")
+        //Find objects where the title is equal to user's school
+        query.whereKey("audience", equalTo: PFUser.current()!["school"] as? String );
+        
+        
         // Do any additional setup after loading the view.
+        
+    
     }
     
     

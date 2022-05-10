@@ -19,6 +19,11 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate & UI
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var captionField: UITextField!
+    @IBOutlet weak var postkindField: UITextField!
+    @IBOutlet weak var programnameField: UITextField!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,12 +31,29 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate & UI
         // Do any additional setup after loading the view.
         captionField.delegate = self //delegate for return key dismiss of keyboard
     }
+    //Create post audience string
+    var postAudience = " "
     
+    @IBAction func schoolannouncementSwitch(_ sender: UISwitch) {
+        if (sender.isOn == true)
+        {
+            print("School announcement is on")
+            postAudience = PFUser.current()!["school"] as! String
+print("School announcement is set to: ", postAudience)
+        }
+        else
+        {
+            print("School announcement is off")
+        }
+    }
     @IBAction func onSubmitButton(_ sender: Any) {
         let post = PFObject(className: "Posts")
         
         post["caption"] = captionField.text
         post["Author"] = PFUser.current()!
+        post["audience"] = postAudience
+        post["kind"] = postkindField.text
+        post["program_name"] = programnameField.text
         
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(name: "image.png", data: imageData!)
