@@ -15,6 +15,10 @@ class GeneralViewController: UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet weak var tableView: UITableView!
     
     var posts = [PFObject]()
+        
+    
+    
+    
     
     
     override func viewDidLoad() {
@@ -56,6 +60,7 @@ class GeneralViewController: UIViewController, UITableViewDelegate, UITableViewD
         cell.captionLabel.text = post["caption"] as! String
         cell.typeLabel.text = post["kind"] as? String
         cell.programnameLabel.text = post["program_name"] as? String
+        
         
         let imageFile = post["image"] as! PFFileObject
         let urlString = imageFile.url!
