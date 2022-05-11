@@ -1,6 +1,6 @@
 //
 //  ForgotPasswordViewController.swift
-//  RumbleRoast
+//  Schoolaborate
 //
 //  Created by Anthony Narvaez on 3/22/22.
 //

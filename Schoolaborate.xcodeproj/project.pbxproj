@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		212E61851F178BEC279AC7B2 /* Pods_Schoolaborate_SchoolaborateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B3E6DB79EB100A43BAC149 /* Pods_Schoolaborate_SchoolaborateUITests.framework */; };
 		52AFAA24846828829C5C7079 /* Pods_SchoolaborateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987695749DA650B2219972F8 /* Pods_SchoolaborateTests.framework */; };
+		9205E7B3282AE4D2001B10CA /* GeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205E7B2282AE4D1001B10CA /* GeneralTableViewCell.swift */; };
 		92931F32282440720029DD2D /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F31282440720029DD2D /* GeneralViewController.swift */; };
 		92931F34282444390029DD2D /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F33282444390029DD2D /* ForYouViewController.swift */; };
 		92931F362825D1940029DD2D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931F352825D1940029DD2D /* ProfileViewController.swift */; };
@@ -27,7 +28,6 @@
 		AD009EF92814429200A6DC83 /* SchoolaborateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009EF82814429200A6DC83 /* SchoolaborateUITests.swift */; };
 		AD009EFB2814429200A6DC83 /* SchoolaborateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009EFA2814429200A6DC83 /* SchoolaborateUITestsLaunchTests.swift */; };
 		AD009F0828144A2B00A6DC83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009F0728144A2B00A6DC83 /* LoginViewController.swift */; };
-		AD009F0A28144A4000A6DC83 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009F0928144A4000A6DC83 /* FeedViewController.swift */; };
 		AD009F0C28144E6B00A6DC83 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */; };
 		DDBAD96313422BB4B1E6D643 /* Pods_Schoolaborate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0D8ED1407B9C792D64A88 /* Pods_Schoolaborate.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +57,7 @@
 		592042C6F51AB00D8CCE5487 /* Pods-Schoolaborate-SchoolaborateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schoolaborate-SchoolaborateUITests.debug.xcconfig"; path = "Target Support Files/Pods-Schoolaborate-SchoolaborateUITests/Pods-Schoolaborate-SchoolaborateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		89606C962E41CDEDD31F8612 /* Pods-Schoolaborate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schoolaborate.debug.xcconfig"; path = "Target Support Files/Pods-Schoolaborate/Pods-Schoolaborate.debug.xcconfig"; sourceTree = "<group>"; };
 		8A0F23DB549957123C1E41C5 /* Pods-Schoolaborate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schoolaborate.release.xcconfig"; path = "Target Support Files/Pods-Schoolaborate/Pods-Schoolaborate.release.xcconfig"; sourceTree = "<group>"; };
+		9205E7B2282AE4D1001B10CA /* GeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTableViewCell.swift; sourceTree = "<group>"; };
 		92931F31282440720029DD2D /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 		92931F33282444390029DD2D /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
 		92931F352825D1940029DD2D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		AD009EF82814429200A6DC83 /* SchoolaborateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolaborateUITests.swift; sourceTree = "<group>"; };
 		AD009EFA2814429200A6DC83 /* SchoolaborateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolaborateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD009F0728144A2B00A6DC83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		AD009F0928144A4000A6DC83 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D8E0D8ED1407B9C792D64A88 /* Pods_Schoolaborate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schoolaborate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,6 +142,7 @@
 				AD009ED92814428C00A6DC83 /* SceneDelegate.swift */,
 				AD009EDD2814428C00A6DC83 /* Main.storyboard */,
 				92931F31282440720029DD2D /* GeneralViewController.swift */,
+				9205E7B2282AE4D1001B10CA /* GeneralTableViewCell.swift */,
 				92931F33282444390029DD2D /* ForYouViewController.swift */,
 				92931F41282995D00029DD2D /* ExploreViewController.swift */,
 				92931F3D282747FA0029DD2D /* PostViewController.swift */,
@@ -152,7 +153,6 @@
 				92931F372825D1E50029DD2D /* SettingsViewController.swift */,
 				AD009F0B28144E6B00A6DC83 /* RegisterViewController.swift */,
 				AD009F0728144A2B00A6DC83 /* LoginViewController.swift */,
-				AD009F0928144A4000A6DC83 /* FeedViewController.swift */,
 				AD009EE02814429200A6DC83 /* Assets.xcassets */,
 				AD009EE22814429200A6DC83 /* LaunchScreen.storyboard */,
 				AD009EE52814429200A6DC83 /* Info.plist */,
@@ -444,9 +444,9 @@
 				AD009F0828144A2B00A6DC83 /* LoginViewController.swift in Sources */,
 				AD009F0C28144E6B00A6DC83 /* RegisterViewController.swift in Sources */,
 				AD009ED82814428C00A6DC83 /* AppDelegate.swift in Sources */,
+				9205E7B3282AE4D2001B10CA /* GeneralTableViewCell.swift in Sources */,
 				92931F34282444390029DD2D /* ForYouViewController.swift in Sources */,
 				92931F32282440720029DD2D /* GeneralViewController.swift in Sources */,
-				AD009F0A28144A4000A6DC83 /* FeedViewController.swift in Sources */,
 				92931F3A2825FF890029DD2D /* ForgotPasswordViewController.swift in Sources */,
 				92931F40282995900029DD2D /* ChatViewController.swift in Sources */,
 				92931F362825D1940029DD2D /* ProfileViewController.swift in Sources */,
